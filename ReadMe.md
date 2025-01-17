@@ -7,7 +7,7 @@ SlayerzUI was the first user interface I created and was continuously developed 
 ```lua
 local SlayerzLibrary = loadstring(
     game:HttpGet(
-        "https://github.com/x2neptunereal/SlayerzUI/main/Source/Library.lua"
+        "https://raw.githubusercontent.com/x2neptunereal/SlayerzUI/main/Source/Library.lua"
     )
 )()
 ```
