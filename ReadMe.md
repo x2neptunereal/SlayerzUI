@@ -5,7 +5,11 @@ SlayerzUI was the first user interface I created and was continuously developed 
 # Document Library
 **Setup Library**
 ```lua
-local SlayerzLibrary = loadstring(game:HttpGet("https://github.com/x2neptunereal/SlayerzUI/main/Source/Library.lua"))()
+local SlayerzLibrary = loadstring(
+    game:HttpGet(
+        "https://github.com/x2neptunereal/SlayerzUI/main/Source/Library.lua"
+    )
+)()
 ```
 **Creating a Window**
 ```lua
@@ -110,14 +114,22 @@ Section:Slider(
 ```
 **Setup Mobile Toggle**
 ```lua
-local MobileToggle = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2neptunereal/SlayerzUI/main/Source/MobileToggle.lua"))()
+local SlayerzMobileToggle = loadstring(
+    game:HttpGet(
+        "https://raw.githubusercontent.com/x2neptunereal/SlayerzUI/main/Source/MobileToggle.lua"
+    )
+)()
 MobileToggle:Create(
     "rbxassetid://15110884615" -- Logo Image <string>
 )
 ```
 **Setup Notification**
 ```lua
-local SlayerzNotify = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/Notification.script"))()
+local SlayerzNotify = loadstring(
+    game:HttpGet(
+        "https://raw.githubusercontent.com/x2neptunereal/SlayerzUI/main/Source/Notification.lua"
+    )
+)()
 ```
 **Creating a Notification**
 ```lua
