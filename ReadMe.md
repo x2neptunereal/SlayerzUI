@@ -119,6 +119,7 @@ local SlayerzMobileToggle = loadstring(
         "https://raw.githubusercontent.com/x2neptunereal/SlayerzUI/main/Source/MobileToggle.lua"
     )
 )()
+
 MobileToggle:Create(
     "rbxassetid://15110884615" -- Logo Image <string>
 )
